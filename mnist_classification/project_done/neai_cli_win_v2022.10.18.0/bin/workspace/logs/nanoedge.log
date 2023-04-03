@@ -1,0 +1,183 @@
+2023-02-28 14:47:45,129    api_routes     INFO   Starting API version 2022.10.17.0 on platform win64
+2023-02-28 14:47:47,185    api_routes     INFO   Starting API on available port 8000
+2023-02-28 14:47:47,185    data_store     INFO   Upgrade 0 DB(s) (incl. 0 DB(s) not compatible) - 0 DB(s) already up-to-date
+2023-02-28 14:48:00,560    api_routes     INFO   Health checks successful
+2023-02-28 14:48:00,565    api_routes     INFO   Ready to serve
+2023-02-28 14:48:00,569      waitress     INFO   Serving on http://127.0.0.1:8000
+2023-02-28 14:48:00,967       license     INFO   Set a new license number
+2023-02-28 14:48:01,556     optimizer     INFO   Bayesian app waiting for work
+2023-02-28 14:48:01,879       license     INFO   License activated successfully: 0
+2023-02-28 14:48:06,189         proxy     INFO   Adding proxy with params: {'proxy_host': '127.0.0.1', 'proxy_port': 9000, 'login': '', 'password': '', 'proxy_trust_env': True, 'proxy_verify': True}
+2023-02-28 14:48:10,168       license     INFO   Using proxy to connect to Cryptlex
+2023-02-28 14:48:10,675    data_store     INFO   Project MNIST has been created successfully
+2023-02-28 14:48:16,462       signalq     INFO   Import new signal / File path: ..\train_files\classif_0.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:17,134       signalq     INFO   Import new signal / File path: ..\train_files\classif_1.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:17,641       signalq     INFO   Import new signal / File path: ..\train_files\classif_2.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:18,207       signalq     INFO   Import new signal / File path: ..\train_files\classif_3.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:18,799       signalq     INFO   Import new signal / File path: ..\train_files\classif_4.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:19,333       signalq     INFO   Import new signal / File path: ..\train_files\classif_5.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:19,824       signalq     INFO   Import new signal / File path: ..\train_files\classif_6.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:20,416       signalq     INFO   Import new signal / File path: ..\train_files\classif_7.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:20,984       signalq     INFO   Import new signal / File path: ..\train_files\classif_8.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:22,904       signalq     INFO   Import new signal / File path: ..\train_files\classif_9.csv, file type: , delimiter: "," class name: "None"
+2023-02-28 14:48:27,237     optimizer     INFO   Create and launch new optimization for project MNIST
+2023-02-28 14:48:31,602     optimizer     INFO   Launching a new Bayesian optimization
+2023-02-28 14:48:31,602     optimizer     INFO   Prevent computer from sleeping
+2023-02-28 14:48:31,602      platform     INFO   Preventing Windows from going to sleep
+2023-02-28 14:48:31,752     optimizer     INFO   Run optimization number 1 for project MNIST
+2023-02-28 14:48:31,757     optimizer     INFO   START - Build datasets
+2023-02-28 14:48:31,779     optimizer     INFO   Creating learning, validation dataset(s)
+2023-02-28 14:48:31,853     optimizer     INFO   Number of cross validation: 5
+2023-02-28 14:48:32,089     optimizer     INFO   Cross validation 1 done
+2023-02-28 14:48:32,296     optimizer     INFO   Cross validation 2 done
+2023-02-28 14:48:32,507     optimizer     INFO   Cross validation 3 done
+2023-02-28 14:48:32,714     optimizer     INFO   Cross validation 4 done
+2023-02-28 14:48:32,920     optimizer     INFO   Cross validation 5 done
+2023-02-28 14:48:32,920     optimizer     INFO   5 learning datasets created with 3000 samples
+2023-02-28 14:48:32,920     optimizer     INFO   5 validation datasets created with 1000 samples
+2023-02-28 14:48:32,920     optimizer     INFO   Creating learning_test, validation_test dataset(s)
+2023-02-28 14:48:32,996     optimizer     INFO   Number of cross validation: 5
+2023-02-28 14:48:33,245     optimizer     INFO   Cross validation 1 done
+2023-02-28 14:48:33,472     optimizer     INFO   Cross validation 2 done
+2023-02-28 14:48:33,700     optimizer     INFO   Cross validation 3 done
+2023-02-28 14:48:33,941     optimizer     INFO   Cross validation 4 done
+2023-02-28 14:48:34,188     optimizer     INFO   Cross validation 5 done
+2023-02-28 14:48:34,188     optimizer     INFO   5 learning_test datasets created with 4000 samples
+2023-02-28 14:48:34,188     optimizer     INFO   5 validation_test datasets created with 1000 samples
+2023-02-28 14:48:34,189     optimizer     INFO   Creating learning_knowledge dataset(s)
+2023-02-28 14:48:34,275     optimizer     INFO   Number of cross validation: 1
+2023-02-28 14:48:34,530     optimizer     INFO   Cross validation 1 done
+2023-02-28 14:48:34,530     optimizer     INFO   1 learning_knowledge datasets created with 5000 samples
+2023-02-28 14:48:34,556     optimizer     INFO   END   - Build datasets
+2023-02-28 14:48:34,556     optimizer     INFO   START - Optimization
+2023-02-28 14:48:36,189     optimizer     INFO   Launching threads with 6 workers
+2023-02-28 14:48:41,911     optimizer     INFO   T0  - SVM  - Optimizer thread launched
+2023-02-28 14:48:41,919     optimizer     INFO   T0  - SVM  - Initialize trials with 0 evaluations for model 2
+2023-02-28 14:48:43,098     optimizer     INFO   T1  - SEFR - Optimizer thread launched
+2023-02-28 14:48:43,106     optimizer     INFO   T1  - SEFR - Initialize trials with 0 evaluations for model 3
+2023-02-28 14:48:43,228     optimizer     INFO   T2  - MLP  - Optimizer thread launched
+2023-02-28 14:48:43,232     optimizer     INFO   T3  - RF   - Optimizer thread launched
+2023-02-28 14:48:43,237     optimizer     INFO   T2  - MLP  - Initialize trials with 0 evaluations for model 4
+2023-02-28 14:48:43,242     optimizer     INFO   T3  - RF   - Initialize trials with 0 evaluations for model 5
+2023-02-28 14:48:43,684     optimizer     INFO   T4  - SVM  - Optimizer thread launched
+2023-02-28 14:48:43,704     optimizer     INFO   T5  - SEFR - Optimizer thread launched
+2023-02-28 14:48:51,460     optimizer     INFO   T4  - SVM  - Validation - Best config found                                            (Validation loss: -0.38115 (2), Global best: 1)
+2023-02-28 14:48:51,488     optimizer     INFO   T4  - SVM  - Final      - Store result for best config at 100%                         (Final loss: -0.38115, Global best: -0.38115)
+2023-02-28 14:48:54,557     optimizer     INFO   T1  - SEFR - Validation - Best config found                                            (Validation loss: -0.267795 (2), Global best: 1)
+2023-02-28 14:48:54,608     optimizer     INFO   T1  - SEFR - Final      - Store result for best config at 100%                         (Final loss: -0.26511705, Global best: -0.26511705)
+2023-02-28 14:48:54,613     optimizer     INFO   T1  - SEFR - Number of evaluations done: 1 / 1 (2 xvals - 11 sec - 5.5 sec/xval)
+2023-02-28 14:48:59,262     optimizer     INFO   T5  - SEFR - Validation - Best config found                                            (Validation loss: -0.336798 (2), Global best: -0.26511705)
+2023-02-28 14:48:59,345     optimizer     INFO   T5  - SEFR - Final      - Store result for best config at 100%                         (Final loss: -0.33343002, Global best: -0.33343002)
+2023-02-28 14:48:59,349     optimizer     INFO   T5  - SEFR - Number of evaluations done: 1 / 1 (2 xvals - 15 sec - 7.5 sec/xval)
+2023-02-28 14:49:21,724     optimizer     INFO   T5  - SEFR - Validation - Best config found                                            (Validation loss: -0.61974 (6), Global best: -0.33343002)
+2023-02-28 14:49:21,759     optimizer     INFO   T5  - SEFR - Final      - Store result for best config at 100%                         (Final loss: -0.61974, Global best: -0.61974)
+2023-02-28 14:49:21,762     optimizer     INFO   T5  - SEFR - Number of evaluations done: 1 / 2 (6 xvals - 22 sec - 3.67 sec/xval)
+2023-02-28 14:49:31,040     optimizer     INFO   T1  - SEFR - Number of evaluations done: 1 / 2 (5 xvals - 36 sec - 7.2 sec/xval)
+2023-02-28 14:49:33,751     optimizer     INFO   T5  - SEFR - Number of evaluations done: 1 / 3 (0 xvals - 11 sec - 0 sec/xval)
+2023-02-28 14:49:42,253     optimizer     INFO   T1  - SEFR - Number of evaluations done: 2 / 4 (1 xvals - 11 sec - 11.0 sec/xval)
+2023-02-28 14:49:45,368     optimizer     INFO   T5  - SEFR - Number of evaluations done: 2 / 5 (2 xvals - 11 sec - 5.5 sec/xval)
+2023-02-28 14:49:49,932     optimizer     INFO   T3  - RF   - Validation - Best config found                                            (Validation loss: -0.6629039999999999 (6), Global best: 1)
+2023-02-28 14:49:49,960     optimizer     INFO   T3  - RF   - Final      - Store result for best config at 100%                         (Final loss: -0.6629039999999999, Global best: -0.6629039999999999)
+2023-02-28 14:49:49,966     optimizer     INFO   T3  - RF   - Number of evaluations done: 2 / 2 (6 xvals - 66 sec - 11.0 sec/xval)
+2023-02-28 14:49:58,368     optimizer     INFO   Receive call to stop current optimization (run learning curve: True)
+2023-02-28 14:49:58,953     optimizer  WARNING   Receive event to stop current optimization
+2023-02-28 14:50:21,982     optimizer     INFO   All threads finished
+2023-02-28 14:49:58,338     optimizer     INFO   T5  - SEFR - Number of evaluations done: 2 / 7 (2 xvals - 12 sec - 6.0 sec/xval)
+2023-02-28 14:49:59,176     optimizer     INFO   T3  - RF   - Returning for T3 (1)
+2023-02-28 14:49:59,350     optimizer     INFO   T4  - SVM  - Returning for T4 (1)
+2023-02-28 14:49:59,498     optimizer     INFO   T1  - SEFR - Returning for T1 (1)
+2023-02-28 14:49:59,498     optimizer     INFO   T2  - MLP  - Returning for T2 (1)
+2023-02-28 14:49:59,514     optimizer     INFO   T5  - SEFR - Returning for T5 (1)
+2023-02-28 14:49:59,545     optimizer     INFO   T0  - SVM  - Returning for T0 (1)
+2023-02-28 14:50:10,607     optimizer     INFO   T7  - RF   - Optimizer should stop
+2023-02-28 14:50:10,610     optimizer     INFO   T7  - RF   - Returning for T7 (1)
+2023-02-28 14:50:10,837     optimizer     INFO   T6  - MLP  - Optimizer should stop
+2023-02-28 14:50:10,839     optimizer     INFO   T6  - MLP  - Returning for T6 (1)
+2023-02-28 14:50:11,419     optimizer     INFO   T8  - SVM  - Optimizer should stop
+2023-02-28 14:50:11,421     optimizer     INFO   T8  - SVM  - Returning for T8 (1)
+2023-02-28 14:50:12,058     optimizer     INFO   T9  - SEFR - Optimizer should stop
+2023-02-28 14:50:12,060     optimizer     INFO   T9  - SEFR - Returning for T9 (1)
+2023-02-28 14:50:12,241     optimizer     INFO   T11 - RF   - Optimizer should stop
+2023-02-28 14:50:12,243     optimizer     INFO   T11 - RF   - Returning for T11 (1)
+2023-02-28 14:50:12,261     optimizer     INFO   T10 - MLP  - Optimizer should stop
+2023-02-28 14:50:12,263     optimizer     INFO   T10 - MLP  - Returning for T10 (1)
+2023-02-28 14:50:16,144     optimizer     INFO   T12 - SVM  - Optimizer should stop
+2023-02-28 14:50:16,146     optimizer     INFO   T12 - SVM  - Returning for T12 (1)
+2023-02-28 14:50:16,689     optimizer     INFO   T13 - SEFR - Optimizer should stop
+2023-02-28 14:50:16,690     optimizer     INFO   T13 - SEFR - Returning for T13 (1)
+2023-02-28 14:50:17,328     optimizer     INFO   T14 - MLP  - Optimizer should stop
+2023-02-28 14:50:17,330     optimizer     INFO   T14 - MLP  - Returning for T14 (1)
+2023-02-28 14:50:18,572     optimizer     INFO   T15 - RF   - Optimizer should stop
+2023-02-28 14:50:18,574     optimizer     INFO   T15 - RF   - Returning for T15 (1)
+2023-02-28 14:50:18,643     optimizer     INFO   T16 - SVM  - Optimizer should stop
+2023-02-28 14:50:18,645     optimizer     INFO   T16 - SVM  - Returning for T16 (1)
+2023-02-28 14:50:18,648     optimizer     INFO   T17 - SEFR - Optimizer should stop
+2023-02-28 14:50:18,650     optimizer     INFO   T17 - SEFR - Returning for T17 (1)
+2023-02-28 14:50:21,581     optimizer     INFO   T18 - MLP  - Optimizer should stop
+2023-02-28 14:50:21,582     optimizer     INFO   T18 - MLP  - Returning for T18 (1)
+2023-02-28 14:50:21,979     optimizer     INFO   T19 - RF   - Optimizer should stop
+2023-02-28 14:50:21,982     optimizer     INFO   T19 - RF   - Returning for T19 (1)
+2023-02-28 14:50:22,609     optimizer     INFO   END   - Optimization
+2023-02-28 14:50:22,642    data_store     INFO   Clean optimization with progress: Progress(total_percent=1.0, optimization_percent=0.0001625, evals_done=13, evals_todo=80000, steps_done=['build_datasets', 'run_evaluations', 'final_step'])
+2023-02-28 14:50:22,679     optimizer     INFO   Delete C:\Users\ettariaj\Documents\dev\DEMO3\neai_cli_win_v2022.10.18.0\bin\temp\signals
+2023-02-28 14:50:33,423     optimizer     INFO   Reallow computer to sleep
+2023-02-28 14:50:33,423      platform     INFO   Allowing Windows to go to sleep
+2023-02-28 14:50:33,424     optimizer     INFO   Run for optimization 1 for project MNIST terminated.
+2023-02-28 14:51:12,954      compiler     INFO   Compile library for optimization 1 for project MNIST
+2023-02-28 14:51:13,167      compiler     INFO   Compile library with params {'compilation_type': 'classifier', 'compilation_flags': {}, 'mcu': 'cortex-m4_st_stm32f4_nucleo-f401re', 'sensor': '', 'data': {'nb_cols': 784, 'nb_lines': [[500, 500, 500, 500, 500, 500, 500, 500, 500, 500]]}, 'performance': None, 'only_emulators': True, 'user_suffix': None, 'serial_number': None, 'lock_type': 100, 'combination': {'number_axis': 1, 'length_data_user': 784, 'multi_axis': 0, 'set_offset_zero': 0, 'scaling_data': 0, 'transform_fft': 0, 'set_abs': 0, 'input_size': 693, 'norm_pooling': 2, 'pca': 0, 'output_nodes': 10, 'temporal_filter': 0, 'sampling_frequency': 0.0, 'sampling_max': 0.0, 'sampling_min': 1000000.0, 'model': 5, 'n_estimators': 5, 'max_depth': 5, 'min_samples_leaf': 2, 'max_features': 0, 'bootstrap': 0, 'random_seed': 10}, 'learning_min_lines': None, 'lib_version': 'v2_c05410f', 'class_names': 'classif_0,classif_1,classif_2,classif_3,classif_4,classif_5,classif_6,classif_7,classif_8,classif_9'}
+2023-02-28 14:51:13,169         proxy     INFO   Connecting with settings: proxy {'http': 'http://127.0.0.1:9000', 'https': 'http://127.0.0.1:9000'}, SSL verify: True, Trust env: True
+2023-02-28 14:51:13,173       license     INFO   Using proxy to connect to Cryptlex
+2023-02-28 14:51:20,949         proxy     INFO   Connection successful to https://prod-api-neai.azure-api.net/neai/v3
+2023-02-28 14:51:21,240      compiler     INFO   Compile library successfully
+2023-02-28 14:51:21,244       license     INFO   Using proxy to connect to Cryptlex
+2023-02-28 14:51:21,419      compiler     INFO   Library stored
+2023-02-28 14:51:37,527      compiler     INFO   Compile library for optimization 1 for project MNIST
+2023-02-28 14:51:37,771      compiler     INFO   Compile library with params {'compilation_type': 'classifier', 'compilation_flags': {'float_abi': 'soft', 'short_wchar': False, 'fshort_enums': False}, 'mcu': 'cortex-m4_st_stm32f4_nucleo-f401re', 'sensor': '', 'data': {'nb_cols': 784, 'nb_lines': [[500, 500, 500, 500, 500, 500, 500, 500, 500, 500]]}, 'performance': None, 'only_emulators': False, 'user_suffix': None, 'serial_number': None, 'lock_type': 100, 'combination': {'number_axis': 1, 'length_data_user': 784, 'multi_axis': 0, 'set_offset_zero': 0, 'scaling_data': 0, 'transform_fft': 0, 'set_abs': 0, 'input_size': 693, 'norm_pooling': 2, 'pca': 0, 'output_nodes': 10, 'temporal_filter': 0, 'sampling_frequency': 0.0, 'sampling_max': 0.0, 'sampling_min': 1000000.0, 'model': 5, 'n_estimators': 5, 'max_depth': 5, 'min_samples_leaf': 2, 'max_features': 0, 'bootstrap': 0, 'random_seed': 10}, 'learning_min_lines': None, 'lib_version': 'v2_c05410f', 'class_names': 'classif_0,classif_1,classif_2,classif_3,classif_4,classif_5,classif_6,classif_7,classif_8,classif_9'}
+2023-02-28 14:51:37,772         proxy     INFO   Connecting with settings: proxy {'http': 'http://127.0.0.1:9000', 'https': 'http://127.0.0.1:9000'}, SSL verify: True, Trust env: True
+2023-02-28 14:51:37,776       license     INFO   Using proxy to connect to Cryptlex
+2023-02-28 14:51:45,631         proxy     INFO   Connection successful to https://prod-api-neai.azure-api.net/neai/v3
+2023-02-28 14:51:45,980      compiler     INFO   Compile library successfully
+2023-02-28 14:51:45,983       license     INFO   Using proxy to connect to Cryptlex
+2023-02-28 14:51:46,047      compiler     INFO   Library stored
+2023-02-28 14:51:53,549    api_routes  WARNING   API has received call to shutdown
+2023-02-28 14:51:53,549    api_routes  WARNING   Stopping worker
+2023-02-28 14:51:58,539     optimizer     INFO   Receive event to exit
+2023-02-28 14:51:58,910    api_routes  WARNING   Cleaning tmp dir
+2023-02-28 14:51:58,912    api_routes  WARNING   Stopping db engines
+2023-02-28 14:51:58,912    api_routes  WARNING   Stopping logger
+2023-03-01 14:23:40,634    api_routes     INFO   Starting API version 2022.10.17.0 on platform win64
+2023-03-01 14:23:42,691    api_routes     INFO   Starting API on available port 8000
+2023-03-01 14:23:42,715    data_store     INFO   Upgrade 0 DB(s) (incl. 0 DB(s) not compatible) - 1 DB(s) already up-to-date
+2023-03-01 14:23:45,258    api_routes     INFO   Health checks successful
+2023-03-01 14:23:45,264    api_routes     INFO   Ready to serve
+2023-03-01 14:23:45,267      waitress     INFO   Serving on http://127.0.0.1:8000
+2023-03-01 14:23:47,258     optimizer     INFO   Bayesian app waiting for work
+2023-03-06 14:57:20,694    api_routes     INFO   Starting API version 2022.10.17.0 on platform win64
+2023-03-06 14:57:22,775    api_routes     INFO   Starting API on available port 8000
+2023-03-06 14:57:23,036    data_store     INFO   Upgrade 0 DB(s) (incl. 0 DB(s) not compatible) - 1 DB(s) already up-to-date
+2023-03-06 14:57:40,479    api_routes     INFO   Health checks successful
+2023-03-06 14:57:40,575    api_routes     INFO   Ready to serve
+2023-03-06 14:57:40,584      waitress     INFO   Serving on http://127.0.0.1:8000
+2023-03-06 14:57:46,273     optimizer     INFO   Bayesian app waiting for work
+2023-03-06 14:58:01,525       license     INFO   Set a new license number
+2023-03-06 14:58:01,583       license     INFO   Using proxy to connect to Cryptlex
+2023-03-06 14:58:02,941       license     INFO   License activated successfully: 0
+2023-03-06 14:58:16,069       license     INFO   Using proxy to connect to Cryptlex
+2023-03-06 14:58:16,739    data_store     INFO   Project MNIST has been created successfully
+2023-03-06 15:11:27,862    api_routes     INFO   Starting API version 2022.10.17.0 on platform win64
+2023-03-06 15:11:29,920    api_routes     INFO   Starting API on available port 8000
+2023-03-06 15:11:30,046    data_store     INFO   Upgrade 0 DB(s) (incl. 0 DB(s) not compatible) - 2 DB(s) already up-to-date
+2023-03-06 15:11:36,866    api_routes     INFO   Health checks successful
+2023-03-06 15:11:36,875    api_routes     INFO   Ready to serve
+2023-03-06 15:11:36,883      waitress     INFO   Serving on http://127.0.0.1:8000
+2023-03-06 15:11:40,992     optimizer     INFO   Bayesian app waiting for work
+2023-03-06 15:12:26,798       license     INFO   Set a new license number
+2023-03-06 15:12:26,823       license     INFO   Using proxy to connect to Cryptlex
+2023-03-06 15:12:27,749       license  WARNING   License cannot be activated, due to 54: Invalid license key.
+2023-03-06 15:12:29,284       license  WARNING   License cannot be activated, due to 54: Invalid license key.
+2023-03-06 15:12:30,818       license  WARNING   License cannot be activated, due to 54: Invalid license key.
+2023-03-06 15:12:32,282       license  WARNING   License cannot be activated, due to 54: Invalid license key.
+2023-03-06 15:12:33,790       license  WARNING   License cannot be activated, due to 54: Invalid license key.
+2023-03-06 15:12:56,057       license     INFO   Set a new license number
+2023-03-06 15:12:56,061       license     INFO   Using proxy to connect to Cryptlex
+2023-03-06 15:12:56,591       license     INFO   License activated successfully: 0

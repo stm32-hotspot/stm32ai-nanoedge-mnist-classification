@@ -1,0 +1,7 @@
+#
+# To create a new revision:
+#   set PIPENV_PIPFILE=C:\Users\wolfromb\Documents\code\neai_api\Pipfile
+#   cd neai_api\data_store\core\database
+#   pipenv run alembic revision -m ""
+#
+#   Important: Update current revision in upgrade.py
